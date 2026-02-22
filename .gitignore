@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+data/processed/
+!data/processed/.gitkeep
+data/raw/
+!data/raw/.gitkeep
+data/interim/
+!data/interim/.gitkeep
+
+.vscode/
+.ipynb_checkpoints/
+notebooks/_chapter01/
+
+.DS_Store

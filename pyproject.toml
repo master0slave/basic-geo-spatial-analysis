@@ -1,0 +1,17 @@
+[project]
+name = "basic-geo-spatial-analysis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "contextily>=1.7.0",
+    "geodatasets>=2026.1.0",
+    "geopandas>=1.1.2",
+    "ipykernel>=7.2.0",
+    "jupyterlab>=4.5.4",
+    "mapclassify>=2.10.0",
+    "matplotlib>=3.10.8",
+    "pandas>=3.0.0",
+    "rasterstats>=0.20.0",
+]
