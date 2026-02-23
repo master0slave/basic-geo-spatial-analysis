@@ -11,6 +11,34 @@
 ## การติดตั้ง
 > ต้องใช้ Python >= 3.11
 
+### สร้าง virtual env
 ```bash 
 uv venv --python 3.11
+
+```
+
+### การเปิดใช้งาน Virtual Environment
+
+**บน macOS/Linux:**
+```bash
+source .venv/bin/activate
+```
+
+**บน Windows (Command Prompt):**
+```cmd
+.venv\Scripts\activate.bat
+```
+
+**บน Windows (PowerShell):**
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+> **หมายเหตุ:** หากใช้ PowerShell อาจต้องเปลี่ยน execution policy ก่อน:
+> ```powershell
+> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+> ```
+
+### ทำการ ติดตั้ง package หรือ library ที่ใช้
+```bash
 uv sync

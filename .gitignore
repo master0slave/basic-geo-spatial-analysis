@@ -21,3 +21,5 @@ data/interim/
 notebooks/_chapter01/
 
 .DS_Store
+
+notebooks/ch05*
